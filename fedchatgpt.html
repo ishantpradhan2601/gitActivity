@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FedEx Style Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-purple-700 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-lg font-bold">FedEx</div>
+      <nav class="space-x-6">
+        <a href="#" class="hover:underline">Shipping</a>
+        <a href="#" class="hover:underline">Tracking</a>
+        <a href="#" class="hover:underline">Support</a>
+        <a href="#" class="hover:underline">Account</a>
+        <a href="#" class="text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v16" />
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="text-center py-12">
+    <h1 class="text-2xl md:text-4xl font-bold mb-4">Want to open a free business account?</h1>
+    <p class="text-lg mb-6">
+      You'll save <span class="font-bold text-purple-700">65%*</span> on international shipments.
+    </p>
+    <p class="text-sm text-gray-600 mb-8">*This discount doesn't apply to freight-forwarders, re-sellers and organizations shipping dangerous goods or valuable items.</p>
+    <a href="#" class="inline-block bg-orange-500 text-white font-bold px-6 py-3 rounded-md hover:bg-orange-600">
+      SIGN UP NOW
+    </a>
+  </main>
+
+  <!-- Cookie Consent -->
+  <footer class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-gray-600">
+        FedEx is using cookies to improve your surfing experience and for analytics and targeted marketing.
+        <a href="#" class="text-blue-500 hover:underline">Learn more</a>.
+      </p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <button class="bg-gray-200 px-4 py-2 rounded-md hover:bg-gray-300">APPLY SETTINGS</button>
+        <button class="bg-gray-200 px-4 py-2 rounded-md hover:bg-gray-300">REJECT ALL COOKIES</button>
+        <button class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600">ACCEPT ALL COOKIES</button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
