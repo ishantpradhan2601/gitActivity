@@ -1,0 +1,19 @@
+.section{
+    padding: 20px;
+    border:2px solid black;
+    margin: 5px;
+    font-size:30px;
+    display: grid;
+    grid-template-areas:
+    'head head head head head head'
+    'main menu menu menu right right'
+    'main foot foot foot foot foot';
+}
+.items{
+    border: 2px solid black;
+    padding:20px;
+    text-align: center;
+}
+#grid-item-1{
+    
+}
